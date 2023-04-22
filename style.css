@@ -1,0 +1,37 @@
+#body_background
+{
+    height:300px;
+    width:300px;
+    background-size:contain;
+}
+
+
+.btn-success:hover
+{
+    background-color:rgb(11, 213, 213);
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:Infinite;
+    border-width:5px;
+    border-style:ridge;
+    border-color:rgb(239, 5, 169);
+
+
+}
+
+
+
+@keyframes example
+{
+from{box-shadow: 3px 3px 35px rgb(0, 227, 252);}
+to{box-shadow: 3px 3px 35px rgb(255, 255, 0);}
+}
+
+#button
+{
+position:relative;
+}
